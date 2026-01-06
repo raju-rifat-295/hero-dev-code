@@ -27,6 +27,23 @@
     cursor: pointer;
 }
 
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+}
+
+.section-heading h2{
+    font-weight: bold;
+    font-size: 35;
+    margin-bottom: 30px;
+}
+
+.section-heading p{
+    font-weight: normal;
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
 
 /* main style */
 header{
@@ -46,14 +63,12 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-
 nav .menu{
     display: flex;
     list-style: none;
     gap: 51px;
     align-items: center;
 }
-
 nav .menu a{
     text-decoration: none;
     color: #474747;
@@ -89,8 +104,35 @@ nav .menu a{
     margin-bottom: 30px;
 
 }
-
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;    /* I always forget this thing */
 } 
+
+#about{
+    padding-top: 130px;
+}
+#about .about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+.about-info{
+    display: flex;
+    max-width: 782px;
+    margin-top: 30px;
+    margin-left: 22.5px;
+    margin-right: 22.5px;
+    justify-content: space-between;
+}
+.about-info .card p{
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+.about-info .card h4{
+    font-size: 20px;
+}
